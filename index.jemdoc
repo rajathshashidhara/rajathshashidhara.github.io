@@ -1,0 +1,14 @@
+# jemdoc: menu{MENU}{index.html}
+= Rajath Shashidhara
+Graduate Student (MS)
+\nDepartment of Computer Science
+\nThe University of Texas at Austin
+
+~~~
+{}{img_left}{files/rajath.jpg}{Rajath Shashidhara}{360px}
+I'm a graduate student in the [https://www.cs.utexas.edu/ CS] department at [https://www.utexas.edu/ The University of Texas, Austin].
+\nPreviously, I was a member of the 5G Communication R&D Team at Samsung Research, Bangalore.
+
+\n\n[files/CV.pdf CV]
+\n[contact.html Contact]: [rajaths@cs.utexas.edu]\n\n
+~~~
