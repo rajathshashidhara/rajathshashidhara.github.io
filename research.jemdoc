@@ -10,7 +10,7 @@ Advisors: [http://www.cs.utexas.edu/~simon/ Prof. Simon Peter] and [http://www.c
 \n*Abstract:* RDMA networks are used in datacenters and high performance computing clusters to support high-throughput, low-latency networking by allowing specialized hardware to directly copy to and from the application memory and network. We propose a software-based flexible RDMA verbs implementation that uses TAS - high-performance user-space TCP
 stack - as the underlying transport layer to allow similar semantics without hardware and network requirements. We discuss the design space that we explore and evaluate our prototype. The single-connection throughput and latency achieved by our implementation indicate not only that providing RDMA interface over TCP using commodity NICs is feasible but also comparable to the hardware implementation.
 
-== Improving Connection Scalability in [https://people.mpi-sws.org/~antoinek/documents/19eurosys_tas.pdf \[TAS: TCP Acceleration as an OS Service\]]
+== Improving Connection Scalability in [https://people.mpi-sws.org/~antoinek/documents/19eurosys_tas.pdf TAS: TCP Acceleration as an OS Service]
 Advisor: [http://www.cs.utexas.edu/~simon/ Prof. Simon Peter]
 \n [https://github.com/rajathshashidhara/tas \[Code\]] [tas_scale.pdf \[Paper\]]
 - Increased throughput by 10\% at 100k connections by improving the performance of flow pacing algorithm
