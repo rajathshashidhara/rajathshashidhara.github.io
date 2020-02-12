@@ -1,4 +1,32 @@
 # jemdoc: menu{MENU}{experience.html}
-== Work Experience
+= Professional Experience
 
-* under construction *
+== Confluent, Mountain View CA ==
+*Software Engineering Intern* (May 2020 - Aug 2020)
+
+== The University of Texas at Austin ==
+*Teaching Assistant* CS378 Cloud Computing  (Jan 2020 - Present)
+
+== Samsung Research, Bangalore
+*Senior Software Engineer (Research)*, Communication R&D (July 2017 - Aug 2019)
+
+- Developed the fast data-plane radio access network stack (PDCP, RLC, MAC) for the world’s first Pre-5G mobile user equipment. Technical support for the 5G demo at /PyeongChang Winter Olympics (Korea, 2018)/
+- Research on /parallelization, memory management & flow control/ to improve throughput and reduce memory footprint of datapath of 5G NR Distributed Unit (commercialized in USA & Korea) on native & NFV platforms
+- Developed /Reinforcement Learning based Radio-Resource Scheduling/ – multi-objective optimization in stochastic input-driven environments using Deep Q-Networks (DQN) & adapted policy iteration
+- Presented with Samsung Technical Excellence Award for no critical S/W bugs in bare-metal real-time code
+
+== Symantec, Bangalore
+*Software Engineering Intern*, Website Security Development Team (Jan 2017 - June 2017)
+
+- Designed a proof-of-concept microservices based cloud-ready web application to automate the purchase, delivery & installation of SSL certificates for webservices hosted on Amazon AWS
+
+== Microsoft, Hyderabad
+*Software Engineering Intern* (May 2016 - July 2016)
+
+- Integrated Azure AD cloud authentication/authorization service into ASP.NET Core based web applications
+
+== Google Summer of Code
+*Open-source Software Development Intern*, Apache Software Foundation - OpenOffice 	(June 2013 - Sept 2013)
+
+- Developed an in-app document version control toolbar which connects to cloud content repository
+
