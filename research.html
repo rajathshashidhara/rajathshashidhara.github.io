@@ -27,22 +27,22 @@
 </div>
 <h2>SRoCE: Software RDMA over Commodity Ethernet</h2>
 <p>Advisors: <a href="http://www.cs.utexas.edu/~simon/">Prof. Simon Peter</a> and <a href="http://www.cs.utexas.edu/~rossbach/">Prof. Chris Rossbach</a>
-<br /> Abstract: RDMA networks are used in datacenters and high performance computing clusters to support high-throughput, low-latency networking by allowing specialized hardware to directly copy to and from the application memory and network. We propose a software-based flexible RDMA verbs implementation that uses TAS - high-performance user-space TCP
-stack - as the underlying transport layer to allow similar semantics without hardware and network requirements. We discuss the design space that we explore and evaluate our prototype. The single-connection throughput and latency achieved by our implementation indicate not only that providing RDMA interface over TCP using commodity NICs is feasible but also comparable to the hardware implementation.
 <br /> <a href="https://github.com/mani-shailesh/rdma-tas">[Code]</a> <a href="sRoCE.pdf">[Paper]</a></p>
 <ul>
 <li><p>Software-based flexible RDMA verbs implementation using high performance user-space TCP stack</p>
 </li>
-<li><p>Achieved 3x single-connection throughput for 1000 bytes RDMA ops as compared to H/W RDMA NICs</p>
+<li><p>Achieved 3x single-connection throughput for 1000 bytes RDMA ops as compared to H/W RDMA NICs
+<br /><b>Abstract:</b> RDMA networks are used in datacenters and high performance computing clusters to support high-throughput, low-latency networking by allowing specialized hardware to directly copy to and from the application memory and network. We propose a software-based flexible RDMA verbs implementation that uses TAS - high-performance user-space TCP
+stack - as the underlying transport layer to allow similar semantics without hardware and network requirements. We discuss the design space that we explore and evaluate our prototype. The single-connection throughput and latency achieved by our implementation indicate not only that providing RDMA interface over TCP using commodity NICs is feasible but also comparable to the hardware implementation.</p>
 </li>
 </ul>
 <h2>Improving Connection Scalability in <a href="https://people.mpi-sws.org/~antoinek/documents/19eurosys_tas.pdf">[TAS: TCP Acceleration as an OS Service]</a></h2>
 <p>Advisor: <a href="http://www.cs.utexas.edu/~simon/">Prof. Simon Peter</a>
-<br /> Abstract: We perform experiments to stress test TAS with very large number of connections to identify the bottlenecks. On analysis, we find that the overhead of Queue Manager – Fair Queueing (FP) based flow scheduler in TAS increases with the number of connections. In place of it, we propose the use of Carousel – a scalable traffic pacing algorithm to replace the existing flow scheduler to improve connection scalability of TAS. Our experiments show that Carousel conforms to rate limits, achieves &nbsp;1.2x times higher throughput and decreases CPU utilization of enqueue operation by 50% in
-comparison with FQ pacing for connections greater than 16k.
 <br /> <a href="https://github.com/rajathshashidhara/tas">[Code]</a> <a href="tas_scale.pdf">[Paper]</a></p>
 <ul>
-<li><p>Increased throughput by 10% at 100k connections by improving the performance of flow pacing algorithm</p>
+<li><p>Increased throughput by 10<tt> at 100k connections by improving the performance of flow pacing algorithm
+\n*Abstract:* We perform experiments to stress test TAS with very large number of connections to identify the bottlenecks. On analysis, we find that the overhead of Queue Manager – Fair Queueing (FP) based flow scheduler in TAS increases with the number of connections. In place of it, we propose the use of Carousel – a scalable traffic pacing algorithm to replace the existing flow scheduler to improve connection scalability of TAS. Our experiments show that Carousel conforms to rate limits, achieves ~1.2x times higher throughput and decreases CPU utilization of enqueue operation by 50</tt> in
+comparison with FQ pacing for connections greater than 16k.</p>
 </li>
 </ul>
 <h2>Studying Quantum Chaos in Aubry-Andre electron systems</h2>
@@ -83,7 +83,7 @@ comparison with FQ pacing for connections greater than 16k.
 </ul>
 <div id="footer">
 <div id="footer-text">
-Page generated 2020-02-12 00:30:00 CST, by <a href="http://jemdoc.jaboc.net/">jemdoc</a>.
+Page generated 2020-02-12 00:41:25 CST, by <a href="http://jemdoc.jaboc.net/">jemdoc</a>.
 </div>
 </div>
 </td>

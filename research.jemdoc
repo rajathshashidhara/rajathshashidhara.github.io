@@ -3,18 +3,18 @@
 
 == SRoCE: Software RDMA over Commodity Ethernet
 Advisors: [http://www.cs.utexas.edu/~simon/ Prof. Simon Peter] and [http://www.cs.utexas.edu/~rossbach/ Prof. Chris Rossbach]
-\n Abstract: RDMA networks are used in datacenters and high performance computing clusters to support high-throughput, low-latency networking by allowing specialized hardware to directly copy to and from the application memory and network. We propose a software-based flexible RDMA verbs implementation that uses TAS - high-performance user-space TCP
-stack - as the underlying transport layer to allow similar semantics without hardware and network requirements. We discuss the design space that we explore and evaluate our prototype. The single-connection throughput and latency achieved by our implementation indicate not only that providing RDMA interface over TCP using commodity NICs is feasible but also comparable to the hardware implementation.
 \n [https://github.com/mani-shailesh/rdma-tas \[Code\]] [sRoCE.pdf \[Paper\]]
 - Software-based flexible RDMA verbs implementation using high performance user-space TCP stack
 - Achieved 3x single-connection throughput for 1000 bytes RDMA ops as compared to H/W RDMA NICs
+\n*Abstract:* RDMA networks are used in datacenters and high performance computing clusters to support high-throughput, low-latency networking by allowing specialized hardware to directly copy to and from the application memory and network. We propose a software-based flexible RDMA verbs implementation that uses TAS - high-performance user-space TCP
+stack - as the underlying transport layer to allow similar semantics without hardware and network requirements. We discuss the design space that we explore and evaluate our prototype. The single-connection throughput and latency achieved by our implementation indicate not only that providing RDMA interface over TCP using commodity NICs is feasible but also comparable to the hardware implementation.
 
 == Improving Connection Scalability in [https://people.mpi-sws.org/~antoinek/documents/19eurosys_tas.pdf \[TAS: TCP Acceleration as an OS Service\]]
 Advisor: [http://www.cs.utexas.edu/~simon/ Prof. Simon Peter]
-\n Abstract: We perform experiments to stress test TAS with very large number of connections to identify the bottlenecks. On analysis, we find that the overhead of Queue Manager – Fair Queueing (FP) based flow scheduler in TAS increases with the number of connections. In place of it, we propose the use of Carousel – a scalable traffic pacing algorithm to replace the existing flow scheduler to improve connection scalability of TAS. Our experiments show that Carousel conforms to rate limits, achieves ~1.2x times higher throughput and decreases CPU utilization of enqueue operation by 50% in
-comparison with FQ pacing for connections greater than 16k.
 \n [https://github.com/rajathshashidhara/tas \[Code\]] [tas_scale.pdf \[Paper\]]
 - Increased throughput by 10% at 100k connections by improving the performance of flow pacing algorithm
+\n*Abstract:* We perform experiments to stress test TAS with very large number of connections to identify the bottlenecks. On analysis, we find that the overhead of Queue Manager – Fair Queueing (FP) based flow scheduler in TAS increases with the number of connections. In place of it, we propose the use of Carousel – a scalable traffic pacing algorithm to replace the existing flow scheduler to improve connection scalability of TAS. Our experiments show that Carousel conforms to rate limits, achieves ~1.2x times higher throughput and decreases CPU utilization of enqueue operation by 50% in
+comparison with FQ pacing for connections greater than 16k.
 
 == Studying Quantum Chaos in Aubry-Andre electron systems
 Advisor: Prof. Tapomoy Guha Sarkar (Aug 2015 - Dec 2016) 
