@@ -1,6 +1,17 @@
 # jemdoc: menu{MENU}{research.html}
 = Research
 
+== Lambda-KV: Distributed Key-Value store with colocated Serverless compute
+Advisors: [https://www.cs.utexas.edu/~vijay/ Prof. Vijay Chidambaram] and [http://www.cs.utexas.edu/~simon/ Prof. Simon Peter]
+\n [https://github.com/rajathshashidhara/SimpleDB \[Code\]] [lambdaKV.pdf \[Paper\]]
+- Serverless execution framework aggregates compute and storage resources into a single entity that aggressively exploits data locality to significantly improve
+efficiency.
+- Lambda-KV improves the overall execution time of serverless compilation workloads by a factor of 1.6x and 5x reduction in time
+spent in data movement against conventional disaggregated deployments.
+
+\n*Abstract:* By embracing new paradigms such as Serverless computing, cloud resources and applications are more fluid and elastic than ever before. With minimum-to-none infrastructure management,
+applications can rapidly scale up or down as per demand. While cloud providers benefit from this model as fine-grained resource management and multi-tenancy drives up utilization, applications incur significant overheads as all state is forced to remote storage. We present the design and implementation of Lambda-KV, a serverless execution framework that aggregates compute and storage resources into a single entity that exploits data locality to significantly improve efficiency. We argue that by reducing the gap between computation and storage, we can achieve high efficiency without sacrificing resource utilization. Our evaluation shows that LambdaKV-KV improves the overall execution time of serverless compilation workloads by a factor of 1.6x and 5x reduction in time spent in data movement against conventional disaggregated deployments.
+
 == SRoCE: Software RDMA over Commodity Ethernet
 Advisors: [http://www.cs.utexas.edu/~simon/ Prof. Simon Peter] and [http://www.cs.utexas.edu/~rossbach/ Prof. Chris Rossbach]
 \n [https://github.com/mani-shailesh/rdma-tas \[Code\]] [sRoCE.pdf \[Paper\]]
