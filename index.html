@@ -6,82 +6,23 @@
                         [GitHub](https://github.com/rajathshashidhara) &#8226; [LinkedIn](https://www.linkedin.com/in/rajath-s) &#8226; [Twitter](https://twitter.com/rajaths_)
 
 ![ ](rajath.jpg width="28%" border="2") I am a graduate student in the [Department of Computer Science](https://www.cs.utexas.edu/) at The University of Texas at Austin.
-Previously, I was a member of the 5G Communication R&D Team at Samsung Research, Bangalore. I have a keen interest in research and development of scalable, efficient and resilient computing systems.
-Presently, I am working on building high-performance TCP stacks accelerated by SmartNICs advised by Prof. [Simon Peter](http://www.cs.utexas.edu/~simon/). You can find my resume [here](cv.pdf).
 
-Education
-===============================================================================
-
-M.S. (2019 - 2021)
-:   *Computer Science*
-:   <br>**The University of Texas at Austin **
-:   <br>Thesis: Accelerating datacenter TCP with programmable SmartNICs
-:   <br>Advisor: [Dr. Simon Peter](http://www.cs.utexas.edu/~simon/)
-
-M.Sc. (2012 - 2017)
-:   *Physics*
-:   <br>**Birla Institute of Technology and Science, Pilani**
-:   <br>Thesis: [Driven Aubry-Andr&#xE9;-Harper Models](thesis.pdf)
-:   <br>Advisor: [Dr. Tapomoy Guha Sarkar](https://scholar.google.com/citations?user=FLFD3-gAAAAJ&hl=en)
-:   <br>Adjudged _Best Student of Batch 2017_
-
-B.E. (2012 - 2017)
-:   *Computer Science*
-:   <br>**Birla Institute of Technology and Science, Pilani**
-:   <br>Received 80% scholarship every semester (&le;5% out of 800 students)
+I have a keen interest in research and development of scalable, efficient and resilient computing systems. Presently, I am working on accelerating datacenter TCP stacks with programmable SmartNICs advised by Prof. [Simon Peter](http://www.cs.utexas.edu/~simon/). You can find my resume [here](cv.pdf).
 
 Publications
 ===============================================================================
 -   [A Reinforcement Learning Framework for QoS-Driven Radio Resource Scheduler](https://doi.org/10.1109/GLOBECOM42002.2020.9322182)
-    <br>Jitender Singh Shekhawat, Rishabh Agrawal, K Gautam Shenoy, *Rajath Shashidhara*
+    <br>Jitender Singh Shekhawat, Rishabh Agrawal, K Gautam Shenoy, <ins>Rajath Shashidhara</ins>
     <br>GLOBECOM 2020 - 2020 IEEE Global Communications Conference, Taipei, Taiwan, 2020, pp. 1-7, doi: 10.1109/GLOBECOM42002.2020.9322182
 
 -   [Phase transition in an Aubry-André system with a rapidly oscillating magnetic field](https://doi.org/10.1103/PhysRevA.94.053612)
-    <br>Tridev Mishra, *Rajath Shashidhara*, Tapomoy Guha Sarkar and Jayendra N. Bandyopadhyay
+    <br>Tridev Mishra, <ins>Rajath Shashidhara</ins>, Tapomoy Guha Sarkar and Jayendra N. Bandyopadhyay
     <br>Physical Review A 94, no. 5 (2016): 053612.
 
-Research
-===============================================================================
-- Lambda-KV: Distributed Key-Value store with colocated Serverless compute
-    <br>[Paper](lKV.pdf) &thinsp; &#8226; &ensp; [Code](https://github.com/rajathshashidhara/SimpleDB)
-    <br>Advisors: [Prof. Simon Peter](http://www.cs.utexas.edu/~simon/) and [Prof. Vijay Chidambaram](https://www.cs.utexas.edu/~vijay/)
+-   [Driven Aubry-Andre-Harper Systems](thesis.pdf)
+    <br><ins>Rajath Shashidhara</ins>
+    <br>Master's Thesis, Birla Institute of Technology and Science, Pilani (May 2017)
 
-    - Serverless execution framework aggregates compute and storage resources into a single entity that aggressively exploits data locality to significantly improve efficiency.
-    - Lambda-KV improves the overall execution time of serverless compilation workloads by a factor of 1.6x and 5x reduction in time spent in data movement against conventional disaggregated deployments.
-
-- SRoCE: Software RDMA over Commodity Ethernet
-    <br>[Paper](sRoCE.pdf) &thinsp; &#8226; &ensp; [Code](https://github.com/mani-shailesh/rdma-tas)
-    <br>Advisors: [Prof. Simon Peter](http://www.cs.utexas.edu/~simon/) and [Prof. Chris Rossbach](http://www.cs.utexas.edu/~rossbach/)
-
-    - Software-based flexible RDMA verbs implementation using high performance user-space TCP stack.
-    - Achieved 3x single-connection throughput for 1000 bytes RDMA ops as compared to H/W RDMA NICs.
-
-- Improving Connection Scalability in [TAS: TCP Acceleration as an OS Service](https://people.mpi-sws.org/~antoinek/documents/19eurosys_tas.pdf)
-    <br>[Paper](tas_scale.pdf) &thinsp; &#8226; &ensp; [Code](https://github.com/rajathshashidhara/tas)
-    <br>Advisor: [Prof. Simon Peter](http://www.cs.utexas.edu/~simon/)
-
-    - Increased throughput by 10&percnt; at 100k connections by improving the performance of flow pacing algorithm.
-    - Overhead of Queue Manager – Fair Queueing (FP) based flow scheduler in TAS increases with the number of connections. In place of it, we use [Carousel](https://www.cc.gatech.edu/~amsmti3/files/carousel-sigcomm17.pdf) to achieve ~1.2x times higher throughput and decrease in CPU utilization of enqueue operation by 50% in comparison with FQ pacing for greater than 16k connections.
-
-- A Reinforcement Learning Framework for QoS-Driven Radio Resource Scheduler
-    - 5G MAC scheduler that learns an allocation policy to simultaneously optimize multiple, often conflicting QoS objectives.
-    - Approach allows network operators to customize their requirements, by assigning priority values to QoS classes.
-    - Presents a flexible neural-network architecture that can easily adapt to varying number of flows, drastically simplifying training, thus rendering it viable for practical implementation in constrained systems.
-    - Outperforms conventional heuristics such as M-LWDF, EXP-RULE and LOGRULE and is robust to changes in radio environment and traffic patterns.
-
-- Studying Quantum Chaos in Aubry-Andr&#xE9; electron systems
-    <br>[Paper](https://doi.org/10.1103/PhysRevA.94.053612) &thinsp; &#8226; &ensp; [Code](https://github.com/rajathshashidhara/DiscreteSchrodinger) &thinsp; &#8226; &ensp; [Thesis](thesis.pdf)
-    <br>Advisor: [Dr. Tapomoy Guha Sarkar](https://scholar.google.com/citations?user=FLFD3-gAAAAJ&hl=en)
-
-    - Studied phase transitions in Hofstadter’s butterfly under time-varying magnetic field and the relationship between topological invariants and Hall conductivity.
-    - Simulated and computationally evaluated solutions to Schrodinger’s equation for special quantum systems using perturbation methods and computational physics algorithms.
-
-- Distributed Combinatorial Optimization on a Cluster
-    <br>[Report](design_bnb.pdf) &thinsp; &#8226; &ensp; [Code](https://github.com/rajathshashidhara/Distributed-Branch-and-Bound)
-    <br>Advisor: [Prof. Sundar Balasubramaniam](https://www.researchgate.net/profile/Sundar_Balasubramaniam)
-
-    - Designed a distributed algorithm to efficiently perform Branch & Bound search on a commodity cluster.
-    - Developed  a  load  balancing  technique  based  on peer-to-peer   diffusion between  nodes  on  toroid communication topology and leftist-heap based work-stealing queues between threads.
 <script>markdeepOptions = {definitionStyle:'auto', tocStyle:'none'}</script>
 <link rel="stylesheet" href="https://casual-effects.com/markdeep/latest/apidoc.css?">
 <!-- Markdeep: --><style class="fallback">body{visibility:hidden;white-space:pre;font-family:monospace}</style><script src="markdeep.min.js" charset="utf-8"></script><script src="https://casual-effects.com/markdeep/latest/markdeep.min.js?" charset="utf-8"></script><script>window.alreadyProcessedMarkdeep||(document.body.style.visibility="visible")</script>
