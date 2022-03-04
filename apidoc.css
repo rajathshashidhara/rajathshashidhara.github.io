@@ -14,7 +14,7 @@ body#md {
 @media screen and (min-width: 64em) {
     .md .longTOC, .md .mediumTOC, .md .shortTOC {
         max-width: 20em;
-	left: 54em;
+	    left: 54em;
         display:block;
         position: fixed;
         top:0;
