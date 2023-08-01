@@ -6,7 +6,7 @@ body#md {
     /* max-width: 50em; */
     /* font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; */
     text-align: justify;
-    /* margin: auto; */
+    margin: auto;
     padding: 0 1em;
 }
 
@@ -85,7 +85,7 @@ body#md {
 
 /* link styling */
 .md a:link, .md a:visited {
-    color: #3f51b5;
+    color: purple;
 }
 
 /* inline and block code */
